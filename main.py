@@ -260,7 +260,7 @@ with players:
                                                        index=7)
             fig = px.scatter(standard_player, player_scatter_feature1, player_scatter_feature2, text='Name',
                              color='Club',
-                             color_discrete_map=colours, size='AssistsP90')
+                             color_discrete_map=colours, size=player_scatter_feature3)
             fig.update_traces(textposition="top center")
             fig.update_layout(
                 autosize=False,
