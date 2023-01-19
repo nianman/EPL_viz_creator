@@ -266,6 +266,7 @@ with players:
                 autosize=False,
                 width=700,
                 height=550,
+                legend_title_text=f'Point Size: {player_scatter_feature3}'
             )
             fig.update_yaxes(
                 title_standoff=15,
